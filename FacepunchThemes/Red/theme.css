@@ -1,0 +1,16 @@
+html {
+	background-color: #232029;
+}
+.navbar.is-primary {
+	background-color: #bd2c2c;
+}
+body.page-forum .forumcategoryblock .forumcategoryheader {
+	background-color: #bd452c;
+}
+
+.pagnation.threadpagnation, .pagnation.postpagnation {
+	background-color: #bd452c;
+}
+.navbar.is-primary .navbar-brand > a.navbar-item:hover, .navbar.is-primary .navbar-brand > a.navbar-item.is-active, .navbar.is-primary .navbar-brand .navbar-link:hover, .navbar.is-primary .navbar-brand .navbar-link.is-active {
+	background-color: #bd452c;
+}
