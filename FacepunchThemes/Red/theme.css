@@ -4,13 +4,17 @@ html {
 .navbar.is-primary {
 	background-color: #bd2c2c;
 }
-body.page-forum .forumcategoryblock .forumcategoryheader {
+body.page-forum .forumcategoryblock .forumcategoryheader,
+.pagnation.threadpagnation, .pagnation.postpagnation,
+.navbar.is-primary .navbar-start > a.navbar-item:hover, .navbar.is-primary .navbar-start > a.navbar-item.is-active,
+.navbar.is-primary .navbar-start .navbar-link:hover, .navbar.is-primary .navbar-start .navbar-link.is-active,
+.navbar.is-primary .navbar-end > a.navbar-item:hover, .navbar.is-primary .navbar-end > a.navbar-item.is-active,
+.navbar.is-primary .navbar-end .navbar-link:hover, .navbar.is-primary .navbar-end .navbar-link.is-active,
+.button.is-primary,
+body.page-forum .threadlistsection .threadblock .threadmain .threadmeta .pagnationcomponent .page {
 	background-color: #bd452c;
 }
 
-.pagnation.threadpagnation, .pagnation.postpagnation {
-	background-color: #bd452c;
-}
-.navbar.is-primary .navbar-brand > a.navbar-item:hover, .navbar.is-primary .navbar-brand > a.navbar-item.is-active, .navbar.is-primary .navbar-brand .navbar-link:hover, .navbar.is-primary .navbar-brand .navbar-link.is-active {
-	background-color: #bd452c;
+.pagnation.threadpagnation A.page.is-active, .pagnation.postpagnation A.page.is-active {
+	background-color: #e37335;
 }
